@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: content-box;
+  text-align: center;
+
+    .header {
+      display: flex;
+      border: 2px solid #000;
+      border-bottom: 0px solid;
+      width: 300px;
+      margin: 0px auto;
+
+      #clear {
+        margin: 0;
+        border: none;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #ef4444;
+        color: white;
+        border-right: 2px solid #000;
+      }
+      
+      #download {
+        display: block;
+        flex-grow: 1;
+        font-size: 20px;
+        padding: 10px;
+        background-color: #10b981;
+        color: white;
+        text-decoration: none;
+      }
+      
+    }
+            
+    .container {
+      border: 2px solid #000;
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+    }
+}
